@@ -1,0 +1,12 @@
+budy{
+    display: grid;
+    grid-template-columns: 
+    minmax(1rem.1fr)
+    minmax(auto.50ch)
+    minmax(1rm.1fr)
+    ;
+    background-color: rgb(15, 240, 240);
+}
+.cont{
+    background-color: aquamarine;
+}
