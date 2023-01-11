@@ -5,6 +5,7 @@ body{
 img{
     width: 300px;
     height:300px;
+    clip-path: circle(50%);
 }
 summary{
     background-color: orangered;
@@ -15,6 +16,8 @@ summary{
     padding-top: 10px;
     cursor: pointer;
 }
-h4{ display: flex;
+h4{ 
+    display: flex;
     justify-content: center;
+
 }
