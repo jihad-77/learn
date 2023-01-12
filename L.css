@@ -11,8 +11,10 @@ img{
 summary{
     background-color: orangered;
     width:120px;
+
     border-radius: 5px;
     height: 40px;
+    
     text-align: center;
     padding-top: 10px;
     cursor: pointer;
