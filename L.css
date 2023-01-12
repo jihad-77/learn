@@ -1,9 +1,9 @@
 body{
     background-color: black;
-    color: snow;
+    color: whitesmoke;
 }
 img{
-    width: 300px;
+    width: 310px;
     height:300px;
     clip-path: circle(50%);
 }
