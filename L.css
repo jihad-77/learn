@@ -1,26 +1,22 @@
-body{
-    background-color: black;
-    color: whitesmoke;
+section{
+    width: 500px;
+    height: 500px;
+    border: black solid 2px;
+    margin:  auto;
+    overflow: hidden;
 }
-
-img{
-    width: 310px; 
-    height:301px;
-    clip-path: circle(50%);
+.a{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    position:relative;
+    top: 10px;
+    right: 50px;
 }
-summary{
-    background-color: orangered;
-    width:120px;
-
-    border-radius: 5px;
-    height: 40px;
-    
-    text-align: center;
-    padding-top: 10px;
-    cursor: pointer;
-}
-h4{ 
-    display: flex;
-    justify-content: center;
-
+.b{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    position: relative;
+    left: 10px;
 }
