@@ -1,3 +1,8 @@
+body{
+    height: 200vh;
+
+}
+
 section{
     width: 500px;
     height: 500px;
@@ -5,6 +10,7 @@ section{
     margin:  auto;
     overflow: hidden;
     position: relative;
+
 }
 .a{
     height: 200px;
@@ -21,5 +27,17 @@ section{
     background-color: teal;
     position:absolute;
     right: 10px;
+
+}
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 90px;
+    height: 30px;
 
 }
