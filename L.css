@@ -12,11 +12,11 @@ section{
     position:relative;
     top: 10px;
     right: 50px;
+    z-index: 4;
 }
 .b{
     height: 200px;
     width: 200px;
     background-color: teal;
-    position: relative;
-    left: 10px;
+    position:absolute;
 }
