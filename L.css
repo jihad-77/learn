@@ -4,6 +4,7 @@ section{
     border: black solid 2px;
     margin:  auto;
     overflow: hidden;
+    position: relative;
 }
 .a{
     height: 200px;
@@ -19,4 +20,6 @@ section{
     width: 200px;
     background-color: teal;
     position:absolute;
+    right: 10px;
+
 }
