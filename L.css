@@ -19,6 +19,6 @@ button{
     height: 30px;
     font-family:cursive;
     box-shadow: 77px 17px 90px 52px tomato;
-    transform: rotate(10deg);
+    transform: skew(20deg);
 
 }
