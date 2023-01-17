@@ -1,3 +1,11 @@
+.di{
+    background-color: silver;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: 6rem auto 0;
+    transform: rotateX(90deg);
+}
 
 button{
     background-color: teal;
@@ -11,5 +19,6 @@ button{
     height: 30px;
     font-family:cursive;
     box-shadow: 77px 17px 90px 52px tomato;
+    transform: rotate(10deg);
 
 }
