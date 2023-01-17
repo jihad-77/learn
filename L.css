@@ -4,7 +4,12 @@
     height: 100px;
     text-align: center;
     margin: 6rem auto 0;
-    transform: rotateX(90deg);
+    transform: rotateX(10deg);
+    transition: 0.9;
+ 
+}
+button:hover{
+    transform: skew(20deg);
 }
 
 button{
@@ -19,6 +24,7 @@ button{
     height: 30px;
     font-family:cursive;
     box-shadow: 77px 17px 90px 52px tomato;
-    transform: skew(20deg);
+    transition: all 0.5;
+
 
 }
