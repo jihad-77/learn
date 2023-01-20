@@ -14,7 +14,8 @@ button:hover{
 h5{
     background-color: white;
     border-radius: 30px;
-    
+    border: 2px solid grey;
+    box-shadow: 2px 0px 2px 0px ;
 }
 button{
     background-color: teal;
