@@ -12,10 +12,13 @@ button:hover{
     transform: skew(20deg);
 }
 h5{
-    background-color: white;
+    background-color:silver;
     border-radius: 30px;
-    border: 2px solid grey;
-    box-shadow: 2px 0px 2px 0px ;
+    width: 120px;
+    text-align: center;
+    margin-left: 40px;
+    height: 1px;
+    box-shadow: 6px 7px 0px 2px white;
 }
 button{
     background-color: teal;
