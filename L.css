@@ -1,4 +1,3 @@
-
 button{
     background-color: teal;
     color: white;
@@ -12,6 +11,12 @@ button{
     font-family:cursive;
     box-shadow: 77px 17px 90px 52px tomato;
     transition: all 0.5;
-
-
+}
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+div:nth-of-type(even){
+    background-color: bisque;
 }
