@@ -1,25 +1,4 @@
-.di{
-    background-color: silver;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-    margin: 6rem auto 0;
-    transform: rotateX(10deg);
-    transition: 0.9;
- 
-}
-button:hover{
-    transform: skew(20deg);
-}
-h5{
-    background-color:silver;
-    border-radius: 30px;
-    width: 120px;
-    text-align: center;
-    margin-left: 40px;
-    height: 1px;
-    box-shadow: 6px 7px 0px 2px white;
-}
+
 button{
     background-color: teal;
     color: white;
