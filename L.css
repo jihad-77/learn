@@ -8,13 +8,21 @@ button{
     right: 20px;
     width: 90px;
     height: 30px;
-    font-family:cursive;
     box-shadow: 77px 17px 90px 52px tomato;
-    transition: all 0.5;
 }
+section{
+    display: grid;
+    grid-template-columns: 20%31%40%10%;
+    grid-gap: 10px;
+}
+
+
+
+
+
 div{
-    height: 50px;
-    width: 50px;
+    min-height: 150px;
+    min-width: 150px;
     background-color: blueviolet;
 }
 div:nth-of-type(even){
