@@ -11,18 +11,19 @@ button{
     box-shadow: 77px 17px 90px 52px tomato;
 }
 section{
+    height: 100%;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns:40px 60px 80px 100px;
+    grid-template-rows: 300px 150px;
     grid-gap: 10px;
+    justify-content: center;
+    justify-items: end;
+    align-items: flex-end;
+        
 }
-
-
-
-
-
 div{
-    min-height: 150px;
-    min-width: 150px;
+    height: 50%;
+    width: 50%;
     background-color: blueviolet;
 }
 div:nth-of-type(even){
