@@ -1,26 +1,17 @@
-.container{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: auto auto auto;
-    background-color:skyblue;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height:1.5;
+    color: #333;
+    background-attachment: #f5f5f5;
+}
+.continer{
+    max-width: 960px;
+    margin: 100px auto;
     padding: 10px;
-}
-.container >div{
-    background-color:wheat;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    border: 1px solid rgb(0,0,0,0.8);
-
-}
-.item {
-    background-color: aliceblue;
-    border: 1px solid rgb(0,0,0,0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-.item1{
-grid-row-start:1;
-grid-row-end: 3;
 }
