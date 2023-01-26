@@ -8,82 +8,37 @@ body{
     font-size: 16px;
     height: 100vh;
     display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 80px 1fr 70px ;
     grid-template-areas: 
     'header header header'
-    'nav content sidbar'
-    'nav footer footer';
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 80px 1fr 70px;
+    'nav content saidbar'
+    'footer footer footer';
 }
-header,footer,main,aside,nav{
+header,
+main,
+nav,
+aside,
+footer{
     background-color: seagreen;
-    color: #fff;
+    border: 1px dotted #fff;
     padding: 20px;
-    border: #fff 1px solid;
 }
 header{
     grid-area: header;
 }
-nav{
-    grid-area: nav;
-}
 main{
     grid-area: content;
 }
+nav{
+    grid-area: nav;
+}
 aside{
-    grid-area: sidbar;
+    grid-area: saidbar;
 }
 footer{
     grid-area: footer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
