@@ -8,51 +8,34 @@ body{
     font-size: 16px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 80px 1fr 70px ;
     grid-template-areas: 
     'header header header'
-    'nav content saidbar'
-    'footer footer footer';
+    'nav content sidbar'
+    'nav footer footer';
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 80px 1fr 70px;
 }
 header,
-main,
 nav,
 aside,
+main,
 footer{
     background-color: seagreen;
-    border:4px double #fff;
-    padding: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
 }
 header{
     grid-area: header;
-}
-main{
-    grid-area: content;
 }
 nav{
     grid-area: nav;
 }
 aside{
-    grid-area: saidbar;
+    grid-area: sidbar;
+}
+main{
+    grid-area: content;
 }
 footer{
     grid-area: footer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
