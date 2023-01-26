@@ -21,7 +21,7 @@ nav,
 aside,
 footer{
     background-color: seagreen;
-    border: 1px dotted #fff;
+    border:4px double #fff;
     padding: 20px;
 }
 header{
