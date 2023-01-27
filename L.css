@@ -13,7 +13,17 @@ h2{
     background-color: blue;
 
 }
-
+button{
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+}
+button:active{
+    background-color: black;
+    color: white;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
 
 
 
