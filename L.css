@@ -6,6 +6,13 @@
 h1:hover{
     color: brown;
 }
+h2:active{
+    color: red;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+
+}
 
 
 
