@@ -3,58 +3,6 @@
     padding: 0;
     margin: 0;
 }
-body{
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 
-    'header header header'
-    'nav content sidbar '
-    'nav footer footer';
-    grid-template-columns: 142px 4fr 1fr;
-    grid-template-rows: 80px 4fr 80px;
-
-
-}
-header,
-nav,
-aside,
-main,
-footer{
-    background-color: saddlebrown;
-    border: 2px silver solid;
-    padding: 10px;
-    border-radius: 4px;
-    color: #fff;
-
-}
-header{
-    grid-area: header;
-}
-nav{
-    grid-area: nav;
-}
-main{
-    grid-area: content;
-}
-
-aside{
-    grid-area:sidbar;
-}
-footer{
-    grid-area: footer;
-}
-header:hover,
-nav:hover,
-aside:hover,
-main:hover,
-footer:hover{
-    background-color: #fff;
-    color: saddlebrown;
-    font-size: larger;
-    direction: 1s;
-    display: grid;
-    transition: 0.5s;
-}
 
 
 
