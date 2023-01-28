@@ -17,7 +17,7 @@ div{
         transform: rotate(0);
     }
     to{
-transform: rotate(3960deg);
+        transform: rotate(3960deg);
     }
 }
 section{
