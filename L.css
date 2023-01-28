@@ -13,20 +13,13 @@ div{
     padding-top: 50px;
 }
 
-@keyframes orange {
-    from{ 
-        transform: rotate(0);
-    }
-    to{
-transform: rotate(3960deg);
-    }
-}
 section{
-    background-color: red;
+    background-color:olive;
     width: 40px;
     height: 40px;
-    margin: 90px;
-    margin-top: 20px;
-    padding: 60px;
-    animation: block;
+    margin: 88px;
+    margin-top: 33px;
+    padding: 40px;
+    border-radius: 200px;
+    border: 20px white solid;
 }
