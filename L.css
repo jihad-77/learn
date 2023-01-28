@@ -1,22 +1,32 @@
 *{
     box-sizing: border-box;
-    padding: 10;
+    padding:0;
     margin: 0;
 }
-p{
-    font-size: 24px;
+div{
+    width: 300px;
+    height: 290px;
+    background-color: olive;
+    margin: 20px;
+    border-radius: 110px;
+    animation: orange 13s ;
+    padding-top: 50px;
 }
-p::first-letter{
-    color: red;
-    font-size: xx-large;
+
+@keyframes orange {
+    from{ 
+        transform: rotate(0);
+    }
+    to{
+transform: rotate(3960deg);
+    }
 }
-p::first-line{
-    color: rebeccapurple;
-    font-variant:small-caps;
+section{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    margin: 90px;
+    margin-top: 20px;
+    padding: 60px;
+    animation: block;
 }
-p::before {
-    content: url(smile);
-  }
-  ::marker{
-    color: brown;
-  }
