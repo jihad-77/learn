@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 0;
+    padding: 10;
     margin: 0;
 }
 p{
@@ -14,3 +14,9 @@ p::first-line{
     color: rebeccapurple;
     font-variant:small-caps;
 }
+p::before {
+    content: url(smile);
+  }
+  ::marker{
+    color: brown;
+  }
