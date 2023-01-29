@@ -23,6 +23,10 @@ body{
 .left{
     grid-area: left;
 }
+h1{
+    margin: 15px;
+    font-family: cursive;
+}
 img{
     background-color: white;
     width: 15%;
