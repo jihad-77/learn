@@ -23,3 +23,6 @@ body{
 .left{
     grid-area: left;
 }
+img{
+    background-color: white;
+}
