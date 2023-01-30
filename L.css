@@ -3,5 +3,23 @@
     padding:0;
     margin: 0;
 }
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'left all all'
+    ;
+    grid-template-columns: 1fr 5fr;
 
+}
+.all,.left{
+    background-color:#fff;
+    border: 2px solid #091322;
+}
 
+.all{
+    grid-area: all;
+}
+.left{
+    grid-area: left;
+}
