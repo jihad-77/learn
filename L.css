@@ -12,7 +12,7 @@ body{
     'footer all all'
     ;
     grid-template-columns: 1fr 5fr ;
-    grid-template-rows: 1fr 4fr 45px;
+    grid-template-rows: 1fr 4fr 55px;
 
 }
 .all,.left,footer{
@@ -25,4 +25,12 @@ body{
 }
 .left{
     grid-area: left;
+}
+img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 5px;
+    margin-left: 20px;
+    margin-top: 45px;
 }
