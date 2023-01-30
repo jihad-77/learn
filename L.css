@@ -8,11 +8,14 @@ body{
     height: 100vh;
     grid-template-areas: 
     'left all all'
+    'left all all'
+    'footer all all'
     ;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 5fr ;
+    grid-template-rows: 1fr 4fr 45px;
 
 }
-.all,.left{
+.all,.left,footer{
     background-color:#fff;
     border: 2px solid #091322;
 }
@@ -23,27 +26,3 @@ body{
 .left{
     grid-area: left;
 }
-h1{
-    margin: 15px;
-    font-family: cursive;
-}
-img {
-    margin: 10px;
-    padding: 10px;
-
-  }
-
-  .demo-problem, .demo-solution {
-    font-size: 3em;
-  }
-  
-  .demo-solution--flexbox {
-    display: flex;
-    align-items: center;
-    margin:auto;
-  }
-    img {
-      margin: 10px;
-      padding: 10px;
-      transition: margin 300ms;
-    }
