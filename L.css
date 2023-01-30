@@ -3,39 +3,5 @@
     padding:0;
     margin: 0;
 }
-body{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: 
-    'left all all'
-    'left all all'
-    'footer all all'
-    ;
-    grid-template-columns: 1fr 5fr ;
-    grid-template-rows: 1fr 4fr 55px;
 
-}
-.all,.left,footer{
-    background-color:#fff;
-    border: 2px solid #091322;
-}
 
-.all{
-    grid-area: all;
-}
-.left{
-    grid-area: left;
-}
-img{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    margin: 5px;
-    margin-left: 20px;
-    margin-top: 45px;
-}
-.lin{
-    width: 30px;
-    height: 22px;
-    margin-top:20px;
-}
