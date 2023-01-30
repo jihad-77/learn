@@ -3,23 +3,54 @@
     padding:0;
     margin: 0;
 }
+h1{
+    font-family: cursive;
+    text-align: center;
+}
 body{
     display: grid;
+    border: 2px solid #091322;
     height: 100vh;
     grid-template-areas: 
-    'left all all'
-    ;
-    grid-template-columns: 1fr 5fr;
-
+    'left all all';
 }
 .all,.left{
     background-color:#fff;
-    border: 2px solid #091322;
-}
+    border: 0.3px solid black;
 
+}
 .all{
     grid-area: all;
 }
 .left{
     grid-area: left;
+    width: 190px;
+}
+img{
+    width: 30px;
+    height: 25px;
+    margin-top: 35px;
+    margin-left: 4px;
+}
+span{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 4px;
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    height: 99px;
+
+}
+li:hover{
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+.down{
+    margin-top: 20px;
+    margin-left: 9px;
 }
