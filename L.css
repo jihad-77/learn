@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding:0;
     margin: 0;
-    font-family: 'popins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 .header{
     width: 100%;
@@ -16,11 +16,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px 30px;
+    padding: 10px 10px;
 }
 .logo{
     display: block;
-    margin-bottom: 130px;
+    margin-bottom: 2px;
 }
 .logo-img{
     width: 90px;
