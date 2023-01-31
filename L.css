@@ -4,3 +4,24 @@
     margin: 0;
     font-family: 'popins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: seagreen;
+}
+.side-nav{
+    width: 250px;
+    height: 100%;
+    background-color: steelblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+}
+.logo{
+    display: block;
+    margin-bottom: 130px;
+}
+.logo-img{
+    width: 90px;
+}
