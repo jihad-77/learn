@@ -20,10 +20,11 @@
 }
 .logo{
     display: block;
-    margin-bottom: 2px;
+    margin-top: 2px;
 }
 .logo-img{
     width: 90px;
+    height: 16px;
 }
 .nav-links{
     list-style: none;
@@ -31,6 +32,7 @@
 }
 .nav-links li{
     padding: 10px 0px;
+    height: 78px;
 }
 .nav-links li a{
     color: #fff;
